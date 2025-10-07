@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de satisfação</title>
+    </head>
+    <body>
+        <header>
+            <h1>Pesquisa de satisfação</h1>
+        </header>
+        <main>
+            <form action="pesquisa.html" method="post">
+                <section>
+                    <h2>Identifique-se:</h2>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="e-mail">E-mail:</label>
+                        <input type="email" id="e-mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone">
+                    </div>                 
+                </section>
+                <section>
+                    <h2>Avaliação:</h2>
+                    <h3>Responda e nos ajude a melhorar!</h3>
+                    <div>
+                        <p><b>Como você conheceu nosso serviço?</b></p>
+                        <select>
+                            <option>--</option>
+                            <option>Redes Sociais</option>
+                            <option>Amigos/Família</option>
+                            <option>Anúncio</option>
+                            <option>Pesquisa na Internet</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="outro">Outro:</label>
+                        <input type="text" placeholder="Digite aqui" id="outro">
+                    </div>
+                    <br>
+                    <div>
+                        <p><b>Em uma escala de 1 a 5, qual o seu nível de satisfação com nossos serviços?</b></p>
+                        <input type="radio" id="nota2" name="nota">
+                        <label for="nota1">1</label>
+                        <br>
+                        <input type="radio" id="nota2" name="nota">
+                        <label for="nota2">2</label>
+                        <br>
+                        <input type="radio" id="nota3" name="nota">
+                        <label for="nota3">3</label>
+                        <br>
+                        <input type="radio" id="nota4" name="nota">
+                        <label for="nota4">4</label>
+                        <br>
+                        <input type="radio" id="nota5" name="nota">
+                        <label for="nota5">5</label>
+                    </div>
+                    <br>
+                    <div>
+                        <p><b>Você recomendaria nossos serviços para outras pessoas?</b></p>
+                        <input type="radio" id="com-certeza" name="resposta">
+                        <label for="com-certeza">Com certeza.</label>
+                        <br>
+                        <input type="radio" id="talvez" name="resposta">
+                        <label for="talvez">Talvez.</label>
+                        <br>
+                        <input type="radio" id="de-jeito-nenhum" name="resposta">
+                        <label for="de-jeito-nenhum">De jeito nenhum.</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input  type="checkbox" id="autorizacao">
+                    <label for="autorizacao">Autorizo que as informações fornecidas nesta pesquisa de satisfação sejam compartilhadas com terceiros para fins de análise e melhoria nos serviços.</label>
+                    </div>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
+
