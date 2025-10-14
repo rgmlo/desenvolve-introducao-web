@@ -1,0 +1,33 @@
+/* Unidades de Medida - Exercício 1 
+
+html { font-size: 20px; }
+
+html h1 { font-size: 2rem; } 20px * 2 = 40px
+
+h1 > .principal { font-size: 1.4em; } 40px * 1.4 = 56px
+
+html .secundario { font-size: 1.4rem; } 20px * 1.4 = 28px
+
+*/
+
+html { font-size: 20px; }
+
+html h1 { font-size: 40px; }
+
+h1 > .principal { font-size: 56px; }
+
+html .secundario { font-size: 28px; }
+
+/* Unidades de Medida - Exercício 2 */
+
+.cor {
+    background: rgb(219, 78, 68); 
+} 
+
+.cor-clara {
+    background: rgb(252, 90, 78); 
+} /* valores * 1.15 */
+
+.cor-escura {
+    background: rgb(186, 66, 58);
+} /* valores * 0.85 */
