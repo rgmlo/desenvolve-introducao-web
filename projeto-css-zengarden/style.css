@@ -1,13 +1,68 @@
 /*  
 
- { color: #1B1826; }
- { color: #251D59; }
- { color: #BFAE9F; }
- { color: #8C5B3F; }
- { color: #BF9075; }
+ cor-principal { color: #251D59; }
+ cor-secundaria { color: #BF9075; }
+ cor-fundo { color: #BFAE9F; }
+ cor-fonte { color: #1B1826; }
 
 cor de fundo: #BFAE9F
 cor de fonte: #1B1826
 cor de destaque: #251D59
 */
 
+/*
+1. Aspectos gerais. Aplique os seguintes estilos na estrutura geral da página.
+    a. Defina um tamanho fixo para a página inteira
+    b. Defina uma fonte do tipo sans-serif para a página inteira
+    c. Indente os parágrafos em 1em
+
+2. Títulos. Alinhe todos os títulos para o centro ou a direita.
+    a. Defina o tamanho do h1 em 1.8rem
+    b. Defina o tamanho do h2 em 1.4rem
+    c. Defina o tamanho do h3 em 1.2rem
+
+3. Seções de resumo e principal. Localize os elementos que representam a seção de resumo e principal da página, e aplique nelas:
+    a. Alinhamento a direita ou centralizado para a seção de resumo.
+    b. Espaçamento entre as linhas de 1.5 para os parágrafos da seção principal.
+
+4. Abreviaturas. Customize todos as abreviaturas para que a fonte seja carregada em small-caps.
+*/
+
+html {
+    background-color: #BFAE9F;
+    color: #1B1826;
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+p {
+    text-indent: 1em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
