@@ -1,5 +1,4 @@
 /*  
-
  cor-principal { color: #251D59; }
  cor-secundaria { color: #BF9075; }
  cor-fundo { color: #BFAE9F; }
@@ -10,28 +9,13 @@ cor de fonte: #1B1826
 cor de destaque: #251D59
 */
 
-/*
-1. Aspectos gerais. Aplique os seguintes estilos na estrutura geral da página.
-    a. Defina um tamanho fixo para a página inteira
-    b. Defina uma fonte do tipo sans-serif para a página inteira
-    c. Indente os parágrafos em 1em
-
-2. Títulos. Alinhe todos os títulos para o centro ou a direita.
-    a. Defina o tamanho do h1 em 1.8rem
-    b. Defina o tamanho do h2 em 1.4rem
-    c. Defina o tamanho do h3 em 1.2rem
-
-3. Seções de resumo e principal. Localize os elementos que representam a seção de resumo e principal da página, e aplique nelas:
-    a. Alinhamento a direita ou centralizado para a seção de resumo.
-    b. Espaçamento entre as linhas de 1.5 para os parágrafos da seção principal.
-
-4. Abreviaturas. Customize todos as abreviaturas para que a fonte seja carregada em small-caps.
-*/
+/* estilização textual */
 
 html {
     background-color: #BFAE9F;
     color: #1B1826;
-    font-size: 14px;
+
+    font-size: 16px;
     font-family: Verdana;
 }
 
@@ -66,3 +50,77 @@ h3 {
 abbr {
     font-variant: small-caps;
 }
+
+/* box model */
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin:auto;
+}
+
+#zen-intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+#zen-intro header {
+    background-color: #1B1826;
+    color: #BFAE9F;
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+.main footer {
+    margin: 4%;
+}
+
+.main footer a {
+    background-color: #1B1826;
+    color: #BFAE9F;
+    border: solid 2px #251D59;
+    padding: 0.5em;
+}
+
+/* posicionamento*/
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: #1f295c 1px solid;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding: 0 1%;
+}
+
+/* flexbox */
+
+
